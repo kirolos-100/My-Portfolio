@@ -9,40 +9,52 @@ export default function About() {
   const { ref } = useSectionInView("About");
 
   return (
+
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[60rem] text-center leading-relaxed sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
-      <p className="mb-3  ">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Computer Science from Helwan University</span>, I decided to pursue my
-        passion for becoming Software Engineering. I enrolled in a coding freecodecamp - coursra - many Youtube Channels and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+      <SectionHeading>About Me</SectionHeading>
+
+      <p className="mb-6 text-lg ">
+        
+        I graduated with a
+        degree in{" "}
+        <span className="font-medium">Computer Science from Helwan University</span>,
+        and since then, I’ve been dedicated to building products that don’t just
+        work — they *feel* right.
       </p>
 
-      <p className="">
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing football. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">origami and drawing</span>.
+      <p className="mb-6 text-lg ">
+        My passion lies in transforming ideas into intuitive, visually engaging
+        interfaces using{" "}
+        <span className="font-medium">React, Next.js, TypeScript, and Tailwind CSS</span>.
+        I combine design thinking and front-end logic to deliver user experiences
+        that are both functional and aesthetically refined. With a background in
+        graphic design, I pay attention to every detail — from typography and
+        spacing to motion and interactivity.
+      </p>
+
+      <p className="mb-6 text-lg ">
+        I thrive in creative environments where design and technology meet. Whether
+        I’m wireframing in <span className="font-medium">Figma</span>, refining
+        motion with <span className="font-medium">Framer Motion</span>, or polishing
+        the final UI, my goal is always the same:{" "}
+        <span className="italic">to create experiences that users remember</span>.
+        I’m constantly exploring new tools and techniques to keep improving my
+        craft, both as a developer and designer.
+      </p>
+
+      <p className="text-lg ">
+        <span className="italic">When I’m not designing or coding</span>, you’ll
+        probably find me sketching concepts, exploring creative visuals. I believe creativity extends beyond the screen — and that’s what
+        keeps me inspired every day.
       </p>
     </motion.section>
+
   );
 }
