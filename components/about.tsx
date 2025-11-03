@@ -20,14 +20,14 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
 
-      <p className="mb-6 text-lg ">
-        
-        I graduated with a
-        degree in{" "}
-        <span className="font-medium">Computer Science from Helwan University</span>,
-        and since then, I’ve been dedicated to building products that don’t just
-        work — they *feel* right.
+      <p className="mb-6 text-lg">
+        I hold a <span className="font-medium">Bachelor’s degree in Computer Science from Helwan University</span>.
+        Since graduating, I’ve been passionate about creating digital products that blend
+        <span className="font-medium"> functionality, usability, and visual elegance</span>.
+        I strive to build experiences that not only work seamlessly but also
+        <span className="italic"> feel intuitive and meaningful</span> to every user.
       </p>
+
 
       <p className="mb-6 text-lg ">
         My passion lies in transforming ideas into intuitive, visually engaging
